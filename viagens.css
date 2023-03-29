@@ -25,11 +25,11 @@ button{
     background-color: darksalmon;
     color: white; /*muda a cor do texto dentro do botão*/
 }
-/*header{
-    background: no-repeat center/cover url("https://img.freepik.com/fotos-gratis/arranjo-de-itens-de-viagem-planos_23-2149617639.jpg?w=2000");
+header{
+    background: no-repeat center/cover url("https://assets.puzzlefactory.pl/puzzle/467/911/original.webp");
     height: calc(100vh - 100px);
 
-}*/
+}
 header nav{
     display: flex;
     justify-content: space-between; /*alinha pro lado direito*/
@@ -53,4 +53,39 @@ header nav p{
 .header-content h1{
     margin-bottom: 10px;
     font-size: 3rem;
+}
+
+.pacotes .pacotes-title{
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 2rem;
+}
+
+.pacotes {
+    background: #D27685;
+    padding: 15px;
+}
+
+.pacotes .pacotes-card{
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pacotes .card-image{
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+}
+
+.pacotes .card {
+    width: 250px;
+    height: 350px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
 }
