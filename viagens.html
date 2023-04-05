@@ -8,6 +8,7 @@ identação, o código deve ser bem organizado-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Viagens</title>
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="viagens.css">
 
     <!--A combinação das teclas Alt + z, mostra todo o codigo de uma linha na tela-->
@@ -47,7 +48,9 @@ identação, o código deve ser bem organizado-->
                 <div class="card-content">
                     <h1>Passeio de Elefante</h1>
                     <ul>
-                        <li><i></i>Alegria</li>
+                        <li><i data-feather="smile"></i>Alegria</li>
+                        <li><i data-feather="map"></i>Rotas</li>
+                        <li><i data-feather="coffee"></i>Café grátis</li>
                     </ul>
                 </div>
             </div>
@@ -64,7 +67,9 @@ identação, o código deve ser bem organizado-->
                 <div class="card-content">
                     <h1>Passeio de Elefante</h1>
                     <ul>
-                        <li><i></i>Alegria</li>
+                        <li><i data-feather="smile"></i>Alegria</li>
+                        <li><i data-feather="wifi"></i>internet</li>
+                        <li><i data-feather="cast"></i>Multimidia</li>
                     </ul>
                 </div>
             </div>
@@ -81,13 +86,47 @@ identação, o código deve ser bem organizado-->
                 <div class="card-content">
                     <h1>Passeio de Elefante</h1>
                     <ul>
-                        <li><i></i>Alegria</li>
+                        <li><i data-feather="smile"></i>Alegria</li>
+                        <li><i data-feather="map"></i>Rotas</li>
+                        <li><i data-feather="coffee"></i>Café grátis</li>
                     </ul>
                 </div>
             </div>
             
         </div>
     </section>
+    <section id="sevicos" class="servicos">
+        <h1 class="servicos-title">Serviços</h1>
+        <div class="servicos-cards">
+            <div class="card">
+                <i data-feather="map"></i>
+                <div class="card-content">
+                    <h3>Tour Guiados</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt reprehenderit possimus odit in ex provident qui accusantium fugiat, nam deleniti illum voluptas sunt eius aperiam aliquid dolore, veritatis, atque officia.</p>    
+                </div>
+                <button>Saiba mais</button>
+            </div>
+            <div class="card">
+                <i data-feather="camera"></i>
+                <div class="card-content">
+                    <h3>Tour Guiados</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt reprehenderit possimus odit in ex provident qui accusantium fugiat, nam deleniti illum voluptas sunt eius aperiam aliquid dolore, veritatis, atque officia.</p>    
+                </div>
+                <button>Saiba mais</button>
+            </div>
+            <div class="card">
+                <i data-feather="navigation"></i>
+                <div class="card-content">
+                    <h3>Tour Guiados</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt reprehenderit possimus odit in ex provident qui accusantium fugiat, nam deleniti illum voluptas sunt eius aperiam aliquid dolore, veritatis, atque officia.</p>    
+                </div>
+                <button>Saiba mais</button>
+            </div>
+        </div>
+    </section>
+    <script>
+        feather.replace()
+      </script>
 
 </body>
 </html>
