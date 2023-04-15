@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 body{
-    margin:10px; /*define a margem da página*/
+    margin:0px; /*define a margem da página*/
     font-family: 'Merriweather', serif;
     color:#66347F;
 }
